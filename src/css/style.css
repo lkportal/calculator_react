@@ -1,0 +1,50 @@
+button {
+  width: 5rem;
+  height: 2rem;
+  margin: 7px;
+  font-size: 20px;
+  border: 1px solid #EBEDED;
+}
+button:hover {
+  background-color: #CD8CFF;
+  border: solid 1px #CD8CFF;
+}
+
+input {
+  margin-top: 2rem;
+  width: 394px;
+  height: 50px;
+  font-size: 20px;
+  padding: 0 10px;
+  border: 2px solid #000;
+  border-radius: 4px;
+}
+input::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+body {
+  background-color: #F0AACD;
+}
+
+.Conteiner-buttons {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+  align-items: center;
+  padding: 2rem;
+  width: 350px;
+  background-color: #E01973;
+}
+.Conteiner-buttons .card-char {
+  display: flex;
+}
+
+.Conteiner-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+/*# sourceMappingURL=style.css.map */
