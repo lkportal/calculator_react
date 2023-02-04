@@ -11,13 +11,13 @@ button:hover {
 }
 
 input {
-  margin-top: 2rem;
   width: 394px;
   height: 50px;
   font-size: 20px;
   padding: 0 10px;
   border: 2px solid #000;
   border-radius: 4px;
+  background-color: #EBEDED;
 }
 input::-webkit-inner-spin-button {
   appearance: none;
@@ -32,12 +32,13 @@ body {
   flex-direction: column;
   border: 2px solid #000;
   align-items: center;
-  padding: 2rem;
+  padding: 0 2rem;
   width: 350px;
   background-color: #E01973;
 }
 .Conteiner-buttons .card-char {
   display: flex;
+  margin-top: 1rem;
 }
 
 .Conteiner-layout {

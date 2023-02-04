@@ -1,9 +1,9 @@
 import React from 'react'
 
-function InputsShow() {
+function InputsShow({val}) {
   return (
     <div>
-      <input type='number' disabled={true}></input>
+      <input type='number' disabled={true} value={val}></input>
     </div>
   )
 }
